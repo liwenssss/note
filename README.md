@@ -2,15 +2,15 @@
 
 ### Contents
 
-- [Pifu相关](#pifu相关)
-- [Human-Nerf](#human-nerf)
-- [动作相关](#动作相关)
-- [人体重建](#人体重建)
-- [姿势预测](#姿势预测)
+- [PIFUs](#PIFUs)
+- [Nerf](#Nerf)
+- [Human-Motion](#Human-Motion)
+- [Human-Mesh-Recovery](#Human-Mesh-Recovery)
+- [Pose-Prediction](#Pose-Prediction)
 - [Human-Object](#human-object)
 - [Face](#Face)
 
-###  Pifu相关
+###  PIFU
 
 包括使用Pifu等相关技术进行人体(avatar)细节重建
 
@@ -38,6 +38,8 @@ human-cloth重建（没有用PIFU）
 
 ### Nerf
 
+[Awesome Neural Radiance Fields ](https://github.com/yenchenlin/awesome-NeRF)
+
 | 方法                                                         | 来源      | 代码                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 | [Nerf: Representing scenes as neural radiance fields for view synthesis](https://arxiv.org/pdf/2003.08934.pdf) | ECCV 2020 | [CODE](https://github.com/yenchenlin/nerf-pytorch)           |
@@ -53,9 +55,9 @@ human-cloth重建（没有用PIFU）
 | [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf) | ECCV 2022 | [CODE](https://github.com/sstzal/DFRF)                       |
 | [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf) | ECCV 2022 | [CODE](https://github.com/facebookresearch/KeypointNeRF)     |
 
-在第5篇论文中，与第2、 3篇中的方法进行了比较
 
-### 动作相关
+
+### Human-Motion
 
 | 方法                                                         | 来源          | 代码                                                         |
 | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ |
@@ -85,9 +87,9 @@ human-cloth重建（没有用PIFU）
 | [Back to MLP : A Simple Baseline for Human Motion Prediction](https://arxiv.org/pdf/2207.01567.pdf) | WACV 2023     | [CODE](https://github.com/dulucas/siMLPe)                    |
 | [Long Term Motion Prediction Using Keyposes](https://arxiv.org/pdf/2012.04731.pdf) | 3DV2022       | [CODE](https://senakicir.github.io/projects/keyposes)        |
 
-### 人体重建
+### Human-Mesh-Recovery
 
-#### 人体重建
+#### Human
 
 | 方法                                                         | 来源      | 代码                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
@@ -99,7 +101,7 @@ human-cloth重建（没有用PIFU）
 | [Pose2UV: Single-shot Multi-person Mesh Recovery with Deep UV Prior](https://www.yangangwang.com/papers/HBZ-pose2uv-2022-06.pdf) | TIP 2022  | [CODE](https://github.com/boycehbz/3DMPB-dataset)            |
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 
-#### 手部重建
+#### Hand
 
 | 方法                                                         | 来源      | 代码                                                    |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------- |
@@ -107,14 +109,14 @@ human-cloth重建（没有用PIFU）
 | [MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.pdf)(实时单手重建，算是把单手重建做到了极致) | CVPR 2022 | [CODE](https://github.com/SeanChenxy/HandMesh)          |
 | [Interacting Attention Graph for Single Image Two-Hand Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf)（利用图卷积与双手交互的自注意力实现双手重建） | CVPR 2022 | [CODE](https://github.com/Dw1010/IntagHand)(仅含有测试) |
 
-#### 网格拟合
+#### Others
 
 - [Learned Vertex Descent: A New Direction for 3D Human Model Fitting](https://arxiv.org/pdf/2205.06254.pdf)（一种新的将SMPL/MANO参数拟合于扫描数据的方法）  ECCV 2022  [CODE](https://github.com/enriccorona/LVD)(需要自行购买扫描数据)
 
 ![](figs/vertex_descent.png)
 
 
-### 姿势预测
+### Pose-Prediction
 
 此处包含预测人体姿势，即2D/3D关节点
 
@@ -134,7 +136,7 @@ human-cloth重建（没有用PIFU）
 
 ### Human-Object
 
-#### 预测人体以及与其交互的物体
+#### human-object
 
 | 方法                                                         | 来源      | 代码                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
