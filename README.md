@@ -1,4 +1,5 @@
 - [human motion capture](https://github.com/visonpon/human-motion-capture)
+- [Awesome 3D Generation](https://github.com/justimyhxu/awesome-3D-generation)
 
 ### Contents
 
@@ -120,6 +121,7 @@ human-cloth重建（没有用PIFU）
 | [Implicit Neural Representations for Variable Length Human Motion Generation](https://arxiv.org/pdf/2203.13694.pdf) | ECCV 2022     | [CODE](https://github.com/PACerv/ImplicitMotion)             |
 | [Back to MLP : A Simple Baseline for Human Motion Prediction](https://arxiv.org/pdf/2207.01567.pdf) | WACV 2023     | [CODE](https://github.com/dulucas/siMLPe)                    |
 | [Long Term Motion Prediction Using Keyposes](https://arxiv.org/pdf/2012.04731.pdf) | 3DV2022       | [CODE](https://senakicir.github.io/projects/keyposes)        |
+| [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://arxiv.org/pdf/2208.15001.pdf) |               | [CODE](https://github.com/mingyuan-zhang/MotionDiffuse)      |
 
 ### Human-Mesh-Recovery
 
