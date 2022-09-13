@@ -1,21 +1,19 @@
 - [human motion capture](https://github.com/visonpon/human-motion-capture)
 - [Awesome 3D Generation](https://github.com/justimyhxu/awesome-3D-generation)
+- [Awesome Neural Radiance Fields ](https://github.com/yenchenlin/awesome-NeRF)
 
 ### Contents
 
 - [Human-Mesh-Recovery](#Human-Mesh-Recovery)
 - [Pose-Prediction](#Pose-Prediction)
 - [Human-Object](#human-object)
-- [Face](#Face)
 - [Human-Motion](#Human-Motion)
 - [Nerf](#Nerf)
 - [其他文章](#其他文章)
 
 ###  Human-Mesh-Recovery
 
-包括使用Pifu等相关技术进行人体(avatar)细节重建
-
-| 方法                                                         | 来源         | 代码                                                         |
+| Methods                                           | Source    | Code                                                      |
 | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ |
 | [PIFu: Pixel-Aligned Implicit Function for High-Resolution Clothed Human Digitization](https://arxiv.org/pdf/1905.05172.pdf) | ICCV 2019    | [CODE](https://github.com/shunsukesaito/PIFu)                |
 | [PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization ](https://shunsukesaito.github.io/PIFuHD/) | CVPR 2020    | [CODE](https://github.com/facebookresearch/pifuhd)(仅含有测试代码) |
@@ -40,18 +38,25 @@
 
 human-cloth重建（没有用PIFU）
 
-| 方法                                                         | 来源          | 代码                                                     |
+| Methods                                                      | Source        | Code                                                     |
 | ------------------------------------------------------------ | ------------- | -------------------------------------------------------- |
 | [3D Clothed Human Reconstruction in the Wild](https://arxiv.org/pdf/2207.10053.pdf) | ECCV 2022     | [CODE](https://github.com/hygenie1228/ClothWild_RELEASE) |
 | [TightCap: 3D Human Shape Capture with Clothing Tightness Field](https://arxiv.org/pdf/1904.02601.pdf) | SIGGRAPH 2022 | [DATASET](https://github.com/ChenFengYe/TightCap)        |
 
 #### Hand
 
-| 方法                                                         | 来源      | 代码                                                    |
+| Methods                                                      | Source    | Code                                                    |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------- |
 | [HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network](https://openaccess.thecvf.com/content/CVPR2022/papers/Park_HandOccNet_Occlusion-Robust_3D_Hand_Mesh_Estimation_Network_CVPR_2022_paper.pdf)（解决遮挡情况下的单手重建） | CVPR 2022 | [CODE](https://github.com/namepllet/HandOccNet)         |
 | [MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.pdf)(实时单手重建，算是把单手重建做到了极致) | CVPR 2022 | [CODE](https://github.com/SeanChenxy/HandMesh)          |
 | [Interacting Attention Graph for Single Image Two-Hand Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf)（利用图卷积与双手交互的自注意力实现双手重建） | CVPR 2022 | [CODE](https://github.com/Dw1010/IntagHand)(仅含有测试) |
+
+#### Face
+
+| Methods                                                      | Source    | Code                                                  |
+| ------------------------------------------------------------ | --------- | ----------------------------------------------------- |
+| [I M Avatar: Implicit Morphable Head Avatars from Videos](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_I_M_Avatar_Implicit_Morphable_Head_Avatars_From_Videos_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/zhengyuf/IMavatar)          |
+| [Multiface: A Dataset for Neural Face Rendering](https://arxiv.org/pdf/2207.11243.pdf) | ARXIV     | [CODE](https://github.com/facebookresearch/multiface) |
 
 #### Others
 
@@ -64,7 +69,7 @@ human-cloth重建（没有用PIFU）
 
 此处包含预测人体姿势，即2D/3D关节点
 
-| 方法                                                         | 来源      | 代码                                                         |
+| Methods                                                      | Source    | Code                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 | [ElePose: Unsupervised 3D Human Pose Estimation by Predicting Camera Elevation and Learning Normalizing Flows on 2D Poses](https://openaccess.thecvf.com/content/CVPR2022/papers/Wandt_ElePose_Unsupervised_3D_Human_Pose_Estimation_by_Predicting_Camera_Elevation_CVPR_2022_paper.pdf)(利用2D姿势预测3D姿势) | CVPR 2022 | [CODE](https://github.com/bastianwandt/ElePose)(不完整)      |
 | [Temporal Feature Alignment and Mutual Information Maximization for Video-Based Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Temporal_Feature_Alignment_and_Mutual_Information_Maximization_for_Video-Based_Human_CVPR_2022_paper.pdf) | CVPR 2022 |                                                              |
@@ -82,7 +87,7 @@ human-cloth重建（没有用PIFU）
 
 #### human-object
 
-| 方法                                                         | 来源      | 代码                                                         |
+| Methods                                                      | Source    | Code                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 | [BEHAVE: Dataset and Method for Tracking Human Object Interactions](https://openaccess.thecvf.com/content/CVPR2022/papers/Bhatnagar_BEHAVE_Dataset_and_Method_for_Tracking_Human_Object_Interactions_CVPR_2022_paper.pdf)(人-物接触) | CVPR 2022 | [DATA](http://virtualhumans.mpi-inf.mpg.de/behave/)          |
 | [Exploring Structure-aware Transformer over Interaction Proposals for Human-object Interaction Detection](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_Exploring_Structure-Aware_Transformer_Over_Interaction_Proposals_for_Human-Object_Interaction_Detection_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/zyong812/STIP)                     |
@@ -94,7 +99,7 @@ human-cloth重建（没有用PIFU）
 
 #### hand-object:
 
-| 方法                                                         | 来源      | 代码                                                        |
+| Methods                                                      | Source    | Code                                                        |
 | ------------------------------------------------------------ | --------- | ----------------------------------------------------------- |
 | [ArtiBoost: Boosting Articulated 3D Hand-Object Pose Estimation via Online Exploration and Synthesis](https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_ArtiBoost_Boosting_Articulated_3D_Hand-Object_Pose_Estimation_via_Online_Exploration_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/lixiny/ArtiBoost)(仅含有测试)     |
 | [GOAL: Generating 4D Whole-Body Motion for Hand-Object Grasping](https://openaccess.thecvf.com/content/CVPR2022/papers/Taheri_GOAL_Generating_4D_Whole-Body_Motion_for_Hand-Object_Grasping_CVPR_2022_paper.pdf)(输入3D人体位置和3D物体位置，输出人体走到物体附近并用手部抓取物体的动作序列位置) | CVPR 2022 | [CODE](https://github.com/otaheri/GOAL)                     |
@@ -106,16 +111,11 @@ human-cloth重建（没有用PIFU）
 | [OakInk: A Large-scale Knowledge Repository for Understanding Hand-Object Interaction](https://arxiv.org/pdf/2203.15709.pdf) | CVPR 2022 | [CODE](https://github.com/lixiny/OakInk)                    |
 
 
-### Face
 
-| 方法                                                         | 来源      | 代码                                                  |
-| ------------------------------------------------------------ | --------- | ----------------------------------------------------- |
-| [I M Avatar: Implicit Morphable Head Avatars from Videos](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_I_M_Avatar_Implicit_Morphable_Head_Avatars_From_Videos_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/zhengyuf/IMavatar)          |
-| [Multiface: A Dataset for Neural Face Rendering](https://arxiv.org/pdf/2207.11243.pdf) | ARXIV     | [CODE](https://github.com/facebookresearch/multiface) |
 
 ### Human-Motion
 
-| 方法                                                         | 来源          | 代码                                                         |
+| Methods                                                      | Source        | Code                                                         |
 | ------------------------------------------------------------ | ------------- | ------------------------------------------------------------ |
 | [Action2Motion: Conditioned Generation of 3D Human Motions](https://arxiv.org/pdf/2007.15240.pdf) | ACM MM        | [CODE](https://github.com/EricGuo5513/action-to-motion)      |
 | [Action-Conditioned 3D Human Motion Synthesis with Transformer VAE](https://openaccess.thecvf.com/content/ICCV2021/papers/Petrovich_Action-Conditioned_3D_Human_Motion_Synthesis_With_Transformer_VAE_ICCV_2021_paper.pdf) | ICCV 2021     | [CODE](https://github.com/Mathux/ACTOR)                      |
@@ -142,13 +142,14 @@ human-cloth重建（没有用PIFU）
 | [Implicit Neural Representations for Variable Length Human Motion Generation](https://arxiv.org/pdf/2203.13694.pdf) | ECCV 2022     | [CODE](https://github.com/PACerv/ImplicitMotion)             |
 | [Back to MLP : A Simple Baseline for Human Motion Prediction](https://arxiv.org/pdf/2207.01567.pdf) | WACV 2023     | [CODE](https://github.com/dulucas/siMLPe)                    |
 | [Long Term Motion Prediction Using Keyposes](https://arxiv.org/pdf/2012.04731.pdf) | 3DV2022       | [CODE](https://senakicir.github.io/projects/keyposes)        |
+|[TEACH: Temporal Action Compositions for 3D Humans](https://arxiv.org/pdf/2209.04066.pdf) | 3DV 2022 | [CODE](https://github.com/athn-nik/teach)|
 | [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://arxiv.org/pdf/2208.15001.pdf) |               | [CODE](https://github.com/mingyuan-zhang/MotionDiffuse)      |
 
 ### Nerf
 
 [Awesome Neural Radiance Fields ](https://github.com/yenchenlin/awesome-NeRF)
 
-| 方法                                                         | 来源      | 代码                                                         |
+| Methods                                                      | Source    | Code                                                         |
 | ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
 | [Nerf: Representing scenes as neural radiance fields for view synthesis](https://arxiv.org/pdf/2003.08934.pdf) | ECCV 2020 | [CODE](https://github.com/yenchenlin/nerf-pytorch)           |
 | [NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction](https://arxiv.org/pdf/2106.10689.pdf) |           | [CODE](https://github.com/Totoro97/NeuS)                     |
