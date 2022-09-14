@@ -1,6 +1,7 @@
 - [human motion capture](https://github.com/visonpon/human-motion-capture)
 - [Awesome 3D Generation](https://github.com/justimyhxu/awesome-3D-generation)
 - [Awesome Neural Radiance Fields ](https://github.com/yenchenlin/awesome-NeRF)
+- [neuralfields](https://neuralfields.cs.brown.edu/index.html)
 
 ### Contents
 
@@ -30,6 +31,7 @@
 | [High-Fidelity Human Avatars from a Single RGB Camera](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_High-Fidelity_Human_Avatars_From_a_Single_RGB_Camera_CVPR_2022_paper.pdf)(细节网格+纹理重建) | CVPR 2022    | [CODE+DATA](http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/)(代码是空的,不知道会不会更新) |
 | [JIFF: Jointly-aligned Implicit Face Function for High Quality Single View Clothed Human Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_JIFF_Jointly-Aligned_Implicit_Face_Function_for_High_Quality_Single_View_CVPR_2022_paper.pdf)(优化PIFU重建人体中脸部细节不好的问题) | CVPR 2022    |                                                              |
 | [AvatarCap: Animatable Avatar Conditioned Monocular Human Volumetric Capture](https://arxiv.org/abs/2207.02031) | ECCV 2022    | [CODE](https://github.com/lizhe00/AvatarCap)                 |
+| [CLIP-Actor: Text-Driven Recommendation and Stylization for Animating Human Meshes](https://arxiv.org/pdf/2206.04382.pdf) | ECCV 2022 | [CODE](https://github.com/postech-ami/CLIP-Actor) |
 | [Pose2UV: Single-shot Multi-person Mesh Recovery with Deep UV Prior](https://www.yangangwang.com/papers/HBZ-pose2uv-2022-06.pdf) | TIP 2022  | [CODE](https://github.com/boycehbz/3DMPB-dataset)            |
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 | [MVP-Human Dataset for 3D Human Avatar Reconstruction from Unconstrained Frames](https://arxiv.org/pdf/2204.11184.pdf) |              |                                                              |
@@ -38,10 +40,11 @@
 
 human-cloth重建（没有用PIFU）
 
-| Methods                                                      | Source        | Code                                                     |
-| ------------------------------------------------------------ | ------------- | -------------------------------------------------------- |
-| [3D Clothed Human Reconstruction in the Wild](https://arxiv.org/pdf/2207.10053.pdf) | ECCV 2022     | [CODE](https://github.com/hygenie1228/ClothWild_RELEASE) |
-| [TightCap: 3D Human Shape Capture with Clothing Tightness Field](https://arxiv.org/pdf/1904.02601.pdf) | SIGGRAPH 2022 | [DATASET](https://github.com/ChenFengYe/TightCap)        |
+| Methods                                                      | Source                  | Code                                                     |
+| ------------------------------------------------------------ | ----------------------- | -------------------------------------------------------- |
+| [3D Clothed Human Reconstruction in the Wild](https://arxiv.org/pdf/2207.10053.pdf) | ECCV 2022               | [CODE](https://github.com/hygenie1228/ClothWild_RELEASE) |
+| [TightCap: 3D Human Shape Capture with Clothing Tightness Field](https://arxiv.org/pdf/1904.02601.pdf) | SIGGRAPH 2022           | [DATASET](https://github.com/ChenFengYe/TightCap)        |
+| [PERGAMO: Personalized 3D Garments from Monocular Video]()   | COMPUTER GRAPHICS FORUM | [CODE](http://mslab.es/projects/PERGAMO/)                |
 
 #### Hand
 
@@ -169,6 +172,8 @@ human-cloth重建（没有用PIFU）
 | [NeRF-Editing: Geometry Editing of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_NeRF-Editing_Geometry_Editing_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/IGLICT/NeRF-Editing)               |
 |[NeuralHOFusion: Neural Volumetric Rendering under Human-object Interactions](https://openaccess.thecvf.com/content/CVPR2022/papers/Jiang_NeuralHOFusion_Neural_Volumetric_Rendering_Under_Human-Object_Interactions_CVPR_2022_paper.pdf)| CVPR 2022 | |
 |[FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/MrTornado24/FENeRF) |
+|[3D-aware Image Synthesis via Learning Structural and Textural Representations](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_3D-Aware_Image_Synthesis_via_Learning_Structural_and_Textural_Representations_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/genforce/volumegan) |
+|[CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/cassiePython/CLIPNeRF) |
 | [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf) | ECCV 2022 | [CODE](https://github.com/sstzal/DFRF)                       |
 | [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf) | ECCV 2022 | [CODE](https://github.com/facebookresearch/KeypointNeRF)     |
 | [Learning Disentangled Neural Mesh-based Implicit Field for Geometry and Texture Editing](https://arxiv.org/pdf/2207.11911.pdf) | ECCV 2022 | [CODE](https://github.com/zju3dv/neumesh)                    |
@@ -205,3 +210,5 @@ human-cloth重建（没有用PIFU）
 - [RACV2022观点集锦 | 三维重建和沉浸式渲染](https://mp.weixin.qq.com/s/aOGB1YjL-JsSb7KC2qMIBg)
 - [NeRF at CVPR 2022](https://dellaert.github.io/NeRF22/)
 - [[CVPR 2022] NeRF(神经辐射场)大放送](https://zhuanlan.zhihu.com/p/476220544)
+- [ENGLISH WRITING](https://github.com/yzy1996/English-Writing)
+
