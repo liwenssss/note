@@ -53,6 +53,7 @@ human-cloth重建（没有用PIFU）
 | [HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network](https://openaccess.thecvf.com/content/CVPR2022/papers/Park_HandOccNet_Occlusion-Robust_3D_Hand_Mesh_Estimation_Network_CVPR_2022_paper.pdf)（解决遮挡情况下的单手重建） | CVPR 2022 | [CODE](https://github.com/namepllet/HandOccNet)         |
 | [MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.pdf)(实时单手重建，算是把单手重建做到了极致) | CVPR 2022 | [CODE](https://github.com/SeanChenxy/HandMesh)          |
 | [Interacting Attention Graph for Single Image Two-Hand Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf)（利用图卷积与双手交互的自注意力实现双手重建） | CVPR 2022 | [CODE](https://github.com/Dw1010/IntagHand)(仅含有测试) |
+| [TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning](https://arxiv.org/pdf/2209.00489.pdf) | 3DV 2022  | [CODE](https://github.com/eth-ait/tempclr)              |
 
 #### Face
 
@@ -147,6 +148,7 @@ human-cloth重建（没有用PIFU）
 | [Long Term Motion Prediction Using Keyposes](https://arxiv.org/pdf/2012.04731.pdf) | 3DV2022       | [CODE](https://senakicir.github.io/projects/keyposes)        |
 |[TEACH: Temporal Action Compositions for 3D Humans](https://arxiv.org/pdf/2209.04066.pdf) | 3DV 2022 | [CODE](https://github.com/athn-nik/teach)|
 | [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://arxiv.org/pdf/2208.15001.pdf) |               | [CODE](https://github.com/mingyuan-zhang/MotionDiffuse)      |
+| [Generating Upper-Body Motion for Real-Time Characters Making their Way through Dynamic Environments](https://hal.ip-paris.fr/hal-03757439/document) | COMPUTER GRAPHICS FORUM 2022 | [CODE](https://github.com/edualvarado/unity-antagonistic-controller) |
 
 ### Nerf
 
@@ -210,6 +212,8 @@ human-cloth重建（没有用PIFU）
 
 - [RACV2022观点集锦 | 三维重建和沉浸式渲染](https://mp.weixin.qq.com/s/aOGB1YjL-JsSb7KC2qMIBg)
 - [NeRF at CVPR 2022](https://dellaert.github.io/NeRF22/)
+- [SIGGRAPH2022 论文选读](https://zhuanlan.zhihu.com/p/541060105?utm_campaign=shareopn&utm_medium=social&utm_oi=78918300205056&utm_psn=1554788562394169344&utm_source=wechat_session)
 - [[CVPR 2022] NeRF(神经辐射场)大放送](https://zhuanlan.zhihu.com/p/476220544)
 - [ENGLISH WRITING](https://github.com/yzy1996/English-Writing)
+- 
 
