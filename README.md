@@ -48,12 +48,13 @@ human-cloth重建（没有用PIFU）
 
 #### Hand
 
-| Methods                                                      | Source    | Code                                                    |
-| ------------------------------------------------------------ | --------- | ------------------------------------------------------- |
-| [HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network](https://openaccess.thecvf.com/content/CVPR2022/papers/Park_HandOccNet_Occlusion-Robust_3D_Hand_Mesh_Estimation_Network_CVPR_2022_paper.pdf)（解决遮挡情况下的单手重建） | CVPR 2022 | [CODE](https://github.com/namepllet/HandOccNet)         |
-| [MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.pdf)(实时单手重建，算是把单手重建做到了极致) | CVPR 2022 | [CODE](https://github.com/SeanChenxy/HandMesh)          |
-| [Interacting Attention Graph for Single Image Two-Hand Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf)（利用图卷积与双手交互的自注意力实现双手重建） | CVPR 2022 | [CODE](https://github.com/Dw1010/IntagHand)(仅含有测试) |
-| [TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning](https://arxiv.org/pdf/2209.00489.pdf) | 3DV 2022  | [CODE](https://github.com/eth-ait/tempclr)              |
+| Methods                                                      | Source        | Code                                                    |
+| ------------------------------------------------------------ | ------------- | ------------------------------------------------------- |
+| [HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network](https://openaccess.thecvf.com/content/CVPR2022/papers/Park_HandOccNet_Occlusion-Robust_3D_Hand_Mesh_Estimation_Network_CVPR_2022_paper.pdf)（解决遮挡情况下的单手重建） | CVPR 2022     | [CODE](https://github.com/namepllet/HandOccNet)         |
+| [MobRecon: Mobile-Friendly Hand Mesh Reconstruction from Monocular Image](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_MobRecon_Mobile-Friendly_Hand_Mesh_Reconstruction_From_Monocular_Image_CVPR_2022_paper.pdf)(实时单手重建，算是把单手重建做到了极致) | CVPR 2022     | [CODE](https://github.com/SeanChenxy/HandMesh)          |
+| [Interacting Attention Graph for Single Image Two-Hand Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Li_Interacting_Attention_Graph_for_Single_Image_Two-Hand_Reconstruction_CVPR_2022_paper.pdf)（利用图卷积与双手交互的自注意力实现双手重建） | CVPR 2022     | [CODE](https://github.com/Dw1010/IntagHand)(仅含有测试) |
+| [TempCLR: Reconstructing Hands via Time-Coherent Contrastive Learning](https://arxiv.org/pdf/2209.00489.pdf) | 3DV 2022      | [CODE](https://github.com/eth-ait/tempclr)              |
+| [NIMBLE: A Non-rigid Hand Model with Bones and Muscles](https://arxiv.org/pdf/2202.04533.pdf) | SIGGRAPH 2022 | [PROJECT](https://liyuwei.cc/proj/nimble)               |
 
 #### Face
 
@@ -61,6 +62,7 @@ human-cloth重建（没有用PIFU）
 | ------------------------------------------------------------ | --------- | ----------------------------------------------------- |
 | [I M Avatar: Implicit Morphable Head Avatars from Videos](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_I_M_Avatar_Implicit_Morphable_Head_Avatars_From_Videos_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/zhengyuf/IMavatar)          |
 | [Multiface: A Dataset for Neural Face Rendering](https://arxiv.org/pdf/2207.11243.pdf) | ARXIV     | [CODE](https://github.com/facebookresearch/multiface) |
+| [REALY: Rethinking the Evaluation of 3D Face Reconstruction](https://arxiv.org/pdf/2203.09729.pdf) | ECCV 2022 | [CODE](https://github.com/czh-98/REALY)               |
 
 #### Others
 
