@@ -192,6 +192,7 @@ human-cloth重建（没有用PIFU）
 |[Unified Implicit Neural Stylization](https://arxiv.org/pdf/2204.01943.pdf) | | [CODE](https://github.com/VITA-Group/INS)|
 | [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022  | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
 | [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |  |  |
+| [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2022 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
 
 其中Human-NeRF:
 
@@ -209,6 +210,7 @@ human-cloth重建（没有用PIFU）
 - [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf)
 - [TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf)
 - [ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf)
+- [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf)
 
 其他：
 - [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf)（语义到NeRF转换）
@@ -221,5 +223,5 @@ human-cloth重建（没有用PIFU）
 - [SIGGRAPH2022 论文选读](https://zhuanlan.zhihu.com/p/541060105?utm_campaign=shareopn&utm_medium=social&utm_oi=78918300205056&utm_psn=1554788562394169344&utm_source=wechat_session)
 - [[CVPR 2022] NeRF(神经辐射场)大放送](https://zhuanlan.zhihu.com/p/476220544)
 - [ENGLISH WRITING](https://github.com/yzy1996/English-Writing)
-- 
+- [NeRF at NeurIPS 2022](https://markboss.me/post/nerf_at_neurips22/)
 
