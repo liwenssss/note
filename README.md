@@ -187,7 +187,7 @@ human-cloth重建（没有用PIFU）
 |[Generative Multiplane Images: Making a 2D GAN 3D-Aware](https://arxiv.org/pdf/2207.10642.pdf) | ECCV 2022 | [CODE](https://github.com/apple/ml-gmpi) |
 |[**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf) | ECCV 2022 | [CODE](https://github.com/donydchen/sem2nerf) |
 |[R2L: Distilling Neural Radiance Field to Neural Light Field for Efficient Novel View Synthesis](https://snap-research.github.io/R2L/) | ECCV 2022 | [CODE](https://github.com/snap-research/R2L) |
-|[TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf) | ECCV 2022 | [CODE]() |
+|[TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf) | ECCV 2022 | [CODE](https://github.com/facebookresearch/tava) |
 |[ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf) | ECCV 2022 | [CODE](https://github.com/taconite/arah-release) |
 |[Unified Implicit Neural Stylization](https://arxiv.org/pdf/2204.01943.pdf) | | [CODE](https://github.com/VITA-Group/INS)|
 | [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022  | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
