@@ -151,6 +151,7 @@ human-cloth重建（没有用PIFU）
 |[TEACH: Temporal Action Compositions for 3D Humans](https://arxiv.org/pdf/2209.04066.pdf) | 3DV 2022 | [CODE](https://github.com/athn-nik/teach)|
 | [MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model](https://arxiv.org/pdf/2208.15001.pdf) |               | [CODE](https://github.com/mingyuan-zhang/MotionDiffuse)      |
 | [Generating Upper-Body Motion for Real-Time Characters Making their Way through Dynamic Environments](https://hal.ip-paris.fr/hal-03757439/document) | COMPUTER GRAPHICS FORUM 2022 | [CODE](https://github.com/edualvarado/unity-antagonistic-controller) |
+| [HUMAN MOTION DIFFUSION MODEL](https://arxiv.org/pdf/2209.14916.pdf) |  | [CODE](https://guytevet.github.io/mdm-page/) |
 
 ### Nerf
 
@@ -195,6 +196,7 @@ human-cloth重建（没有用PIFU）
 | [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022  | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
 | [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |  |  |
 | [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2022 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
+| [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |  |  |
 
 其中Human-NeRF:
 
