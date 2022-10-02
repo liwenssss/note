@@ -197,7 +197,7 @@ human-cloth重建（没有用PIFU）
 | [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |  |  |
 | [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2022 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
 | [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |  |  |
-
+| [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | | |[CODE](https://github.com/apple/ml-neuman)|
 其中Human-NeRF:
 
 - [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf)
@@ -217,6 +217,7 @@ human-cloth重建（没有用PIFU）
 - [NDF: Neural Deformable Fields for Dynamic Human Modelling](https://arxiv.org/pdf/2207.09193.pdf)
 - [Relighting4D: Neural Relightable Human from Videos](https://arxiv.org/pdf/2207.07104.pdf)
 - [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf)
+- [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf)
 
 其他：
 - [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf)（语义到NeRF转换）
