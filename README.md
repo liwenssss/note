@@ -192,12 +192,12 @@ human-cloth重建（没有用PIFU）
 |[ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf) | ECCV 2022 | [CODE](https://github.com/taconite/arah-release) |
 |[NDF: Neural Deformable Fields for Dynamic Human Modelling](https://arxiv.org/pdf/2207.09193.pdf) | ECCV 2022 | [CODE](https://github.com/HKBU-VSComputing/2022_ECCV_NDF) |
 |[Relighting4D: Neural Relightable Human from Videos](https://arxiv.org/pdf/2207.07104.pdf) | ECCV 2022 | [CODE](https://github.com/FrozenBurning/Relighting4D) |
+| [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | ECCV 2022 | [CODE](https://github.com/apple/ml-neuman)|
 |[Unified Implicit Neural Stylization](https://arxiv.org/pdf/2204.01943.pdf) | | [CODE](https://github.com/VITA-Group/INS)|
 | [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022  | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
 | [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |  |  |
 | [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2022 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
 | [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |  |  |
-| [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | | [CODE](https://github.com/apple/ml-neuman)|
 | [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf) | | |
 
 其中Human-NeRF:
