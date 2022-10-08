@@ -199,6 +199,7 @@ human-cloth重建（没有用PIFU）
 | [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2022 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
 | [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |  |  |
 | [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf) | | |
+| [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf) | | |
 
 其中Human-NeRF:
 
@@ -221,6 +222,7 @@ human-cloth重建（没有用PIFU）
 - [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf)
 - [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf)
 - [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf)
+- [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf)(using SMPL body and NeRF clothing)
 
 其他：
 - [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf)（语义到NeRF转换）
