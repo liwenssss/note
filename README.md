@@ -232,6 +232,9 @@ human-cloth重建（没有用PIFU）
 其他：
 - [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf)（语义到NeRF转换）
 
+### ReID
+
+- [A Self-Supervised Gait Encoding Approach with Locality-Awareness for 3D Skeleton Based Person Re-Identification](https://tanmingkui.github.io/files/publications/A_Self-Supervised.pdf)
 
 ### 其他文章
 
