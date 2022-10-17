@@ -204,6 +204,7 @@ human-cloth重建（没有用PIFU）
 | [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf) | | |
 | [Advances in neural rendering](https://3dvar.com/Tewari2021Advances.pdf) | | |
 | [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) | | |
+| [Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera](https://arxiv.org/pdf/2206.15258.pdf) | NeurIPS 2022 | [code]() |
 
 其中Human-NeRF:
 
