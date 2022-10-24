@@ -35,6 +35,8 @@
 | [Pose2UV: Single-shot Multi-person Mesh Recovery with Deep UV Prior](https://www.yangangwang.com/papers/HBZ-pose2uv-2022-06.pdf) | TIP 2022  | [CODE](https://github.com/boycehbz/3DMPB-dataset)            |
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 | [MVP-Human Dataset for 3D Human Avatar Reconstruction from Unconstrained Frames](https://arxiv.org/pdf/2204.11184.pdf) |              |                                                              |
+| [ReFu: Refine and Fuse the Unobserved View for Detail-Preserving Single-Image 3D Human Reconstruction](https://dl.acm.org/doi/pdf/10.1145/3503161.3547971) | MM 2022 | |
+| [Motion Guided Deep Dynamic 3D Garments](https://arxiv.org/pdf/2209.11449.pdf) | SIGGRAPH 2022 | [CODE](https://github.com/MengZephyr/Motion-Guided-Deep-Dynamic-3D-Garment) |
 
 在ICON中，与PIFU,PIFUHD以及PaMIR三种方法进行了对比。
 
@@ -205,6 +207,7 @@ human-cloth重建（没有用PIFU）
 | [Advances in neural rendering](https://3dvar.com/Tewari2021Advances.pdf) | | |
 | [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) | | |
 | [Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera](https://arxiv.org/pdf/2206.15258.pdf) | NeurIPS 2022 | [code]() |
+| [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
 
 其中Human-NeRF:
 
