@@ -32,6 +32,7 @@
 | [JIFF: Jointly-aligned Implicit Face Function for High Quality Single View Clothed Human Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Cao_JIFF_Jointly-Aligned_Implicit_Face_Function_for_High_Quality_Single_View_CVPR_2022_paper.pdf)(优化PIFU重建人体中脸部细节不好的问题) | CVPR 2022    |                                                              |
 | [AvatarCap: Animatable Avatar Conditioned Monocular Human Volumetric Capture](https://arxiv.org/abs/2207.02031) | ECCV 2022    | [CODE](https://github.com/lizhe00/AvatarCap)                 |
 | [CLIP-Actor: Text-Driven Recommendation and Stylization for Animating Human Meshes](https://arxiv.org/pdf/2206.04382.pdf) | ECCV 2022 | [CODE](https://github.com/postech-ami/CLIP-Actor) |
+| [SUPR: A Sparse Unified Part-Based Human Representation](https://ps.is.mpg.de/uploads_file/attachment/attachment/699/0570_source.pdf) | ECCV 2022 | [CODE](https://github.com/ahmedosman/SUPR) |
 | [Pose2UV: Single-shot Multi-person Mesh Recovery with Deep UV Prior](https://www.yangangwang.com/papers/HBZ-pose2uv-2022-06.pdf) | TIP 2022  | [CODE](https://github.com/boycehbz/3DMPB-dataset)            |
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 | [MVP-Human Dataset for 3D Human Avatar Reconstruction from Unconstrained Frames](https://arxiv.org/pdf/2204.11184.pdf) |              |                                                              |
@@ -207,6 +208,7 @@ human-cloth重建（没有用PIFU）
 | [Advances in neural rendering](https://3dvar.com/Tewari2021Advances.pdf) | | |
 | [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) | | |
 | [Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera](https://arxiv.org/pdf/2206.15258.pdf) | NeurIPS 2022 | [code]() |
+| [NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos](https://arxiv.org/pdf/2210.12352.pdf) | NeurIPS 2022 | [CODE](https://github.com/gaoalexander/neuphysics) |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
 
 其中Human-NeRF:
