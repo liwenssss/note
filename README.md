@@ -33,6 +33,7 @@
 | [AvatarCap: Animatable Avatar Conditioned Monocular Human Volumetric Capture](https://arxiv.org/abs/2207.02031) | ECCV 2022    | [CODE](https://github.com/lizhe00/AvatarCap)                 |
 | [CLIP-Actor: Text-Driven Recommendation and Stylization for Animating Human Meshes](https://arxiv.org/pdf/2206.04382.pdf) | ECCV 2022 | [CODE](https://github.com/postech-ami/CLIP-Actor) |
 | [SUPR: A Sparse Unified Part-Based Human Representation](https://ps.is.mpg.de/uploads_file/attachment/attachment/699/0570_source.pdf) | ECCV 2022 | [CODE](https://github.com/ahmedosman/SUPR) |
+| [HuMMan: Multi-Modal 4D Human Dataset for Versatile Sensing and Modeling](https://arxiv.org/pdf/2204.13686.pdf) DATASET | ECCV 2022 |  |
 | [Pose2UV: Single-shot Multi-person Mesh Recovery with Deep UV Prior](https://www.yangangwang.com/papers/HBZ-pose2uv-2022-06.pdf) | TIP 2022  | [CODE](https://github.com/boycehbz/3DMPB-dataset)            |
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 | [MVP-Human Dataset for 3D Human Avatar Reconstruction from Unconstrained Frames](https://arxiv.org/pdf/2204.11184.pdf) |              |                                                              |
@@ -91,6 +92,7 @@ human-cloth重建（没有用PIFU）
 | [AdaptPose: Cross-Dataset Adaptation for 3D Human Pose Estimation by Learnable Motion Generation](https://openaccess.thecvf.com/content/CVPR2022/papers/Gholami_AdaptPose_Cross-Dataset_Adaptation_for_3D_Human_Pose_Estimation_by_Learnable_CVPR_2022_paper.pdf)(通过动作指引生成合成数据，用于训练3D姿势预测) | CVPR 2022 |                                                              |
 | [PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_PoseTriplet_Co-Evolving_3D_Human_Pose_Estimation_Imitation_and_Hallucination_Under_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/Garfield-kh/PoseTriplet)           |
 | [Structure-Aware Flow Generation for Human Body Reshaping](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Structure-Aware_Flow_Generation_for_Human_Body_Reshaping_CVPR_2022_paper.pdf)(预测图像中人物的2D姿势，利用2D姿势更改图像中人物的体型，并生成新的图像，属于2D姿势预测的应用) | CVPR 2022 | [DATA](https://github.com/JianqiangRen/FlowBasedBodyReshaping) |
+| [POSE-NDF: MODELING HUMAN POSE MANIFOLDS WITH NEURAL DISTANCE FIELDS](https://virtualhumans.mpi-inf.mpg.de/papers/tiwari22posendf/posendf.pdf) BSET PAPER IN ECCV 2022 | ECCV 2022 | [CODE](https://github.com/garvita-tiwari/PoseNDF)            |
 
 ### Human-Object
 
