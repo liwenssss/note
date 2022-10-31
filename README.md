@@ -38,6 +38,7 @@
 | [PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images](https://arxiv.org/pdf/2207.06400.pdf) |           | [CODE](https://github.com/HongwenZhang/PyMAF-X)仅有测试代码  |
 | [MVP-Human Dataset for 3D Human Avatar Reconstruction from Unconstrained Frames](https://arxiv.org/pdf/2204.11184.pdf) |              |                                                              |
 | [ReFu: Refine and Fuse the Unobserved View for Detail-Preserving Single-Image 3D Human Reconstruction](https://dl.acm.org/doi/pdf/10.1145/3503161.3547971) | MM 2022 | |
+| [xCloth: Extracting Template-free Textured 3D Clothes from a Monocular Image](https://arxiv.org/pdf/2208.12934v1.pdf) | MM 2022 | |
 | [Motion Guided Deep Dynamic 3D Garments](https://arxiv.org/pdf/2209.11449.pdf) | SIGGRAPH 2022 | [CODE](https://github.com/MengZephyr/Motion-Guided-Deep-Dynamic-3D-Garment) |
 
 在ICON中，与PIFU,PIFUHD以及PaMIR三种方法进行了对比。
