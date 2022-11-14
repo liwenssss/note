@@ -80,20 +80,21 @@ human-cloth重建（没有用PIFU）
 
 此处包含预测人体姿势，即2D/3D关节点
 
-| Methods                                                      | Source    | Code                                                         |
-| ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
-| [ElePose: Unsupervised 3D Human Pose Estimation by Predicting Camera Elevation and Learning Normalizing Flows on 2D Poses](https://openaccess.thecvf.com/content/CVPR2022/papers/Wandt_ElePose_Unsupervised_3D_Human_Pose_Estimation_by_Predicting_Camera_Elevation_CVPR_2022_paper.pdf)(利用2D姿势预测3D姿势) | CVPR 2022 | [CODE](https://github.com/bastianwandt/ElePose)(不完整)      |
-| [Temporal Feature Alignment and Mutual Information Maximization for Video-Based Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Temporal_Feature_Alignment_and_Mutual_Information_Maximization_for_Video-Based_Human_CVPR_2022_paper.pdf) | CVPR 2022 |                                                              |
-| [Trajectory Optimization for Physics-Based Reconstruction of 3d Human Pose from Monocular Video](https://openaccess.thecvf.com/content/CVPR2022/papers/Gartner_Trajectory_Optimization_for_Physics-Based_Reconstruction_of_3D_Human_Pose_From_CVPR_2022_paper.pdf) | CVPR 2022 |                                                              |
-| [Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Kundu_Uncertainty-Aware_Adaptation_for_Self-Supervised_3D_Human_Pose_Estimation_CVPR_2022_paper.pdf) (自监督) | CVPR 2022 | [CODE](https://sites.google.com/view/mrp-net)                |
-| [Generalizable Human Pose Triangulation](https://openaccess.thecvf.com/content/CVPR2022/papers/Bartol_Generalizable_Human_Pose_Triangulation_CVPR_2022_paper.pdf)(多视角姿势预测) | CVPR 2022 |                                                              |
-| [MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_MixSTE_Seq2seq_Mixed_Spatio-Temporal_Encoder_for_3D_Human_Pose_Estimation_CVPR_2022_paper.pdf)(连续帧预测3D姿势) | CVPR 2022 | [CODE](https://github.com/JinluZhang1126/MixSTE)(COMING SOON) |
-| [Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Lite_Pose_Efficient_Architecture_Design_for_2D_Human_Pose_Estimation_CVPR_2022_paper.pdf)(轻量级的2D姿势预测) | CVPR 2022 | [CODE](https://github.com/mit-han-lab/litepose)              |
-| [Location-Free Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Location-Free_Human_Pose_Estimation_CVPR_2022_paper.pdf)(一种新的姿势预测形式) | CVPR 2022 |                                                              |
-| [AdaptPose: Cross-Dataset Adaptation for 3D Human Pose Estimation by Learnable Motion Generation](https://openaccess.thecvf.com/content/CVPR2022/papers/Gholami_AdaptPose_Cross-Dataset_Adaptation_for_3D_Human_Pose_Estimation_by_Learnable_CVPR_2022_paper.pdf)(通过动作指引生成合成数据，用于训练3D姿势预测) | CVPR 2022 |                                                              |
-| [PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_PoseTriplet_Co-Evolving_3D_Human_Pose_Estimation_Imitation_and_Hallucination_Under_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/Garfield-kh/PoseTriplet)           |
-| [Structure-Aware Flow Generation for Human Body Reshaping](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Structure-Aware_Flow_Generation_for_Human_Body_Reshaping_CVPR_2022_paper.pdf)(预测图像中人物的2D姿势，利用2D姿势更改图像中人物的体型，并生成新的图像，属于2D姿势预测的应用) | CVPR 2022 | [DATA](https://github.com/JianqiangRen/FlowBasedBodyReshaping) |
-| [POSE-NDF: MODELING HUMAN POSE MANIFOLDS WITH NEURAL DISTANCE FIELDS](https://virtualhumans.mpi-inf.mpg.de/papers/tiwari22posendf/posendf.pdf) BSET PAPER IN ECCV 2022 | ECCV 2022 | [CODE](https://github.com/garvita-tiwari/PoseNDF)            |
+| Methods                                                      | Source     | Code                                                         |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| [ElePose: Unsupervised 3D Human Pose Estimation by Predicting Camera Elevation and Learning Normalizing Flows on 2D Poses](https://openaccess.thecvf.com/content/CVPR2022/papers/Wandt_ElePose_Unsupervised_3D_Human_Pose_Estimation_by_Predicting_Camera_Elevation_CVPR_2022_paper.pdf)(利用2D姿势预测3D姿势) | CVPR 2022  | [CODE](https://github.com/bastianwandt/ElePose)(不完整)      |
+| [Temporal Feature Alignment and Mutual Information Maximization for Video-Based Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Temporal_Feature_Alignment_and_Mutual_Information_Maximization_for_Video-Based_Human_CVPR_2022_paper.pdf) | CVPR 2022  |                                                              |
+| [Trajectory Optimization for Physics-Based Reconstruction of 3d Human Pose from Monocular Video](https://openaccess.thecvf.com/content/CVPR2022/papers/Gartner_Trajectory_Optimization_for_Physics-Based_Reconstruction_of_3D_Human_Pose_From_CVPR_2022_paper.pdf) | CVPR 2022  |                                                              |
+| [Uncertainty-Aware Adaptation for Self-Supervised 3D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Kundu_Uncertainty-Aware_Adaptation_for_Self-Supervised_3D_Human_Pose_Estimation_CVPR_2022_paper.pdf) (自监督) | CVPR 2022  | [CODE](https://sites.google.com/view/mrp-net)                |
+| [Generalizable Human Pose Triangulation](https://openaccess.thecvf.com/content/CVPR2022/papers/Bartol_Generalizable_Human_Pose_Triangulation_CVPR_2022_paper.pdf)(多视角姿势预测) | CVPR 2022  |                                                              |
+| [MixSTE: Seq2seq Mixed Spatio-Temporal Encoder for 3D Human Pose Estimation in Video](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_MixSTE_Seq2seq_Mixed_Spatio-Temporal_Encoder_for_3D_Human_Pose_Estimation_CVPR_2022_paper.pdf)(连续帧预测3D姿势) | CVPR 2022  | [CODE](https://github.com/JinluZhang1126/MixSTE)(COMING SOON) |
+| [Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Lite_Pose_Efficient_Architecture_Design_for_2D_Human_Pose_Estimation_CVPR_2022_paper.pdf)(轻量级的2D姿势预测) | CVPR 2022  | [CODE](https://github.com/mit-han-lab/litepose)              |
+| [Location-Free Human Pose Estimation](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Location-Free_Human_Pose_Estimation_CVPR_2022_paper.pdf)(一种新的姿势预测形式) | CVPR 2022  |                                                              |
+| [AdaptPose: Cross-Dataset Adaptation for 3D Human Pose Estimation by Learnable Motion Generation](https://openaccess.thecvf.com/content/CVPR2022/papers/Gholami_AdaptPose_Cross-Dataset_Adaptation_for_3D_Human_Pose_Estimation_by_Learnable_CVPR_2022_paper.pdf)(通过动作指引生成合成数据，用于训练3D姿势预测) | CVPR 2022  |                                                              |
+| [PoseTriplet: Co-evolving 3D Human Pose Estimation, Imitation, and Hallucination under Self-supervision](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_PoseTriplet_Co-Evolving_3D_Human_Pose_Estimation_Imitation_and_Hallucination_Under_CVPR_2022_paper.pdf) | CVPR 2022  | [CODE](https://github.com/Garfield-kh/PoseTriplet)           |
+| [Structure-Aware Flow Generation for Human Body Reshaping](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Structure-Aware_Flow_Generation_for_Human_Body_Reshaping_CVPR_2022_paper.pdf)(预测图像中人物的2D姿势，利用2D姿势更改图像中人物的体型，并生成新的图像，属于2D姿势预测的应用) | CVPR 2022  | [DATA](https://github.com/JianqiangRen/FlowBasedBodyReshaping) |
+| [POSE-NDF: MODELING HUMAN POSE MANIFOLDS WITH NEURAL DISTANCE FIELDS](https://virtualhumans.mpi-inf.mpg.de/papers/tiwari22posendf/posendf.pdf) BSET PAPER IN ECCV 2022 | ECCV 2022  | [CODE](https://github.com/garvita-tiwari/PoseNDF)            |
+| [AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time](https://arxiv.org/pdf/2211.03375.pdf) | TPAMI 2022 | [CODE](https://github.com/Fang-Haoshu/Halpe-FullBody)        |
 
 ### Human-Object
 
@@ -216,8 +217,10 @@ human-cloth重建（没有用PIFU）
 | [STYLENERF: A STYLE-BASED 3D-AWARE GENERATOR FOR HIGH-RESOLUTION IMAGE SYNTHESIS](https://arxiv.org/pdf/2110.08985.pdf) | ICLR 2022 | [CODE](https://github.com/facebookresearch/StyleNeRF) |
 | [Neural Surface Reconstruction of Dynamic Scenes with Monocular RGB-D Camera](https://arxiv.org/pdf/2206.15258.pdf) | NeurIPS 2022 | [code]() |
 | [NeuPhysics: Editable Neural Geometry and Physics from Monocular Videos](https://arxiv.org/pdf/2210.12352.pdf) | NeurIPS 2022 | [CODE](https://github.com/gaoalexander/neuphysics) |
+| [Generative Neural Articulated Radiance Fields](https://arxiv.org/pdf/2206.14314.pdf) | NeurIPS 2022 |  |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
 | [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/pdf/2205.15285.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/hustvl/TiNeuVox) |
+| [Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories](https://arxiv.org/pdf/2211.03889.pdf) |  |  |
 
 其中Human-NeRF:
 
@@ -226,24 +229,46 @@ human-cloth重建（没有用PIFU）
 - [Nerfies: Deformable Neural Radiance Fields](https://openaccess.thecvf.com/content/ICCV2021/papers/Park_Nerfies_Deformable_Neural_Radiance_Fields_ICCV_2021_paper.pdf)
 - [A-NeRF: Articulated Neural Radiance Fields for Learning Human Shape, Appearance, and Pose](https://proceedings.neurips.cc/paper/2021/file/65fc9fb4897a89789352e211ca2d398f-Paper.pdf)
 - [H-NeRF: Neural Radiance Fields for Rendering and Temporal Reconstruction of Humans in Motion](https://proceedings.neurips.cc/paper/2021/file/7d62a275027741d98073d42b8f735c68-Paper.pdf)
+- [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf)
 - [HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_HumanNeRF_Efficiently_Generated_Human_Radiance_Field_From_Sparse_Inputs_CVPR_2022_paper.pdf)  
 - [HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video ](https://arxiv.org/abs/2201.04127)
 - [DoubleField: Bridging the Neural Surface and Radiance Fields for High-fidelity Human Reconstruction and Rendering](https://openaccess.thecvf.com/content/CVPR2022/papers/Shao_DoubleField_Bridging_the_Neural_Surface_and_Radiance_Fields_for_High-Fidelity_CVPR_2022_paper.pdf)
 - [Surface-Aligned Neural Radiance Fields for Controllable 3D Human Synthesis](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Surface-Aligned_Neural_Radiance_Fields_for_Controllable_3D_Human_Synthesis_CVPR_2022_paper.pdf) 
 - [Structured Local Radiance Fields for Human Avatar Modeling](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_Structured_Local_Radiance_Fields_for_Human_Avatar_Modeling_CVPR_2022_paper.pdf)
-- [FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf)  (face)
 - [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf)
 - [TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf)
 - [ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf)
 - [NDF: Neural Deformable Fields for Dynamic Human Modelling](https://arxiv.org/pdf/2207.09193.pdf)
 - [Relighting4D: Neural Relightable Human from Videos](https://arxiv.org/pdf/2207.07104.pdf)
-- [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf)
 - [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf)
 - [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf)
 - [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf)(using SMPL body and NeRF clothing)
 - [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf)
+- [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf)
+- [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf)
+
+
+
+face：
+
+- [NerFACE: Dynamic Neural Radiance Fields for Monocular 4D Facial Avatar Reconstruction](https://openaccess.thecvf.com/content/CVPR2021/papers/Gafni_Dynamic_Neural_Radiance_Fields_for_Monocular_4D_Facial_Avatar_Reconstruction_CVPR_2021_paper.pdf)
+- [AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_AD-NeRF_Audio_Driven_Neural_Radiance_Fields_for_Talking_Head_Synthesis_ICCV_2021_paper.pdf)
+
+- [FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf) 
+- [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf)
+- [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf)
+
+
+
+生成式：
+
+- [Pix2NeRF: Unsupervised Conditional π-GAN for Single Image to Neural Radiance Fields Translation](https://openaccess.thecvf.com/content/CVPR2022/papers/Cai_Pix2NeRF_Unsupervised_Conditional_p-GAN_for_Single_Image_to_Neural_Radiance_CVPR_2022_paper.pdf)
+- [Injecting 3D Perception of Controllable NeRF-GAN into StyleGAN for Editable Portrait Image Synthesis](https://arxiv.org/pdf/2207.10257.pdf)
+
+
 
 其他：
+
 - [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf)（语义到NeRF转换）
 
 
