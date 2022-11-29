@@ -166,32 +166,33 @@ human-cloth重建（没有用PIFU）
 
 #### human-nerf(NVS,NPS,HUMAN-GENERATION..)：
 
-| Methods                                                      | Source    | Code                                                         |
-| ------------------------------------------------------------ | --------- | ------------------------------------------------------------ |
-| [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf) | CVPR 2021 | [CODE](https://github.com/zju3dv/neuralbody)                 |
-| [Animatable Neural Radiance Fields for Modeling Dynamic Human Bodies](https://arxiv.org/abs/2105.02872) | ICCV 2021 | [CODE](https://github.com/zju3dv/animatable_nerf)            |
-| [Neural Articulated Radiance Field](https://openaccess.thecvf.com/content/ICCV2021/papers/Noguchi_Neural_Articulated_Radiance_Field_ICCV_2021_paper.pdf) | ICCV 2021 | [CODE](https://github.com/nogu-atsu/NARF)                    |
-| [Nerfies: Deformable Neural Radiance Fields](https://openaccess.thecvf.com/content/ICCV2021/papers/Park_Nerfies_Deformable_Neural_Radiance_Fields_ICCV_2021_paper.pdf) | ICCV 2021 | [CODE](https://github.com/google/nerfies)                    |
-| [A-NeRF: Articulated Neural Radiance Fields for Learning Human Shape, Appearance, and Pose](https://proceedings.neurips.cc/paper/2021/file/65fc9fb4897a89789352e211ca2d398f-Paper.pdf) | NIPS 2021 | [CODE](https://github.com/LemonATsu/A-NeRF)                  |
-| [H-NeRF: Neural Radiance Fields for Rendering and Temporal Reconstruction of Humans in Motion](https://proceedings.neurips.cc/paper/2021/file/7d62a275027741d98073d42b8f735c68-Paper.pdf) | NIPS 2021 |                                                              |
-| [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2021 | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
-| [Neural actor: neural free-view synthesis of human actors with pose control](https://dl.acm.org/doi/pdf/10.1145/3478513.3480528) | TOG 2021  |                                                              |
-| [HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video ](https://arxiv.org/abs/2201.04127) | CVPR 2022 | [CODE](https://github.com/chungyiweng/humannerf)             |
-| [HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_HumanNeRF_Efficiently_Generated_Human_Radiance_Field_From_Sparse_Inputs_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/zhaofuq/HumanNeRF)                 |
-| [Surface-Aligned Neural Radiance Fields for Controllable 3D Human Synthesis](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Surface-Aligned_Neural_Radiance_Fields_for_Controllable_3D_Human_Synthesis_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/pfnet-research/surface-aligned-nerf) |
-| [Structured Local Radiance Fields for Human Avatar Modeling](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_Structured_Local_Radiance_Fields_for_Human_Avatar_Modeling_CVPR_2022_paper.pdf) | CVPR 2022 | [PROJECT](https://liuyebin.com/slrf/slrf.html)(没有代码，仅有数据) |
-| [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf) | ECCV 2022 | [CODE](https://github.com/facebookresearch/KeypointNeRF)     |
-| [TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf) | ECCV 2022 | [CODE](https://github.com/facebookresearch/tava)             |
-| [ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf) | ECCV 2022 | [CODE](https://github.com/taconite/arah-release)             |
-| [NDF: Neural Deformable Fields for Dynamic Human Modelling](https://arxiv.org/pdf/2207.09193.pdf) | ECCV 2022 | [CODE](https://github.com/HKBU-VSComputing/2022_ECCV_NDF)    |
-| [Relighting4D: Neural Relightable Human from Videos](https://arxiv.org/pdf/2207.07104.pdf) | ECCV 2022 | [CODE](https://github.com/FrozenBurning/Relighting4D)        |
-| [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | ECCV 2022 | [CODE](https://github.com/apple/ml-neuman)                   |
-| [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022  | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
-| [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |           |                                                              |
-| [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf) |           |                                                              |
-| [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf) |           |                                                              |
-| [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf) |           |                                                              |
-| [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) |           |                                                              |
+| Methods                                                      | Source             | Code                                                         |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ |
+| [Neural Body: Implicit Neural Representations with Structured Latent Codes for Novel View Synthesis of Dynamic Humans](https://openaccess.thecvf.com/content/CVPR2021/papers/Peng_Neural_Body_Implicit_Neural_Representations_With_Structured_Latent_Codes_for_CVPR_2021_paper.pdf) | CVPR 2021          | [CODE](https://github.com/zju3dv/neuralbody)                 |
+| [Animatable Neural Radiance Fields for Modeling Dynamic Human Bodies](https://arxiv.org/abs/2105.02872) | ICCV 2021          | [CODE](https://github.com/zju3dv/animatable_nerf)            |
+| [Neural Articulated Radiance Field](https://openaccess.thecvf.com/content/ICCV2021/papers/Noguchi_Neural_Articulated_Radiance_Field_ICCV_2021_paper.pdf) | ICCV 2021          | [CODE](https://github.com/nogu-atsu/NARF)                    |
+| [Nerfies: Deformable Neural Radiance Fields](https://openaccess.thecvf.com/content/ICCV2021/papers/Park_Nerfies_Deformable_Neural_Radiance_Fields_ICCV_2021_paper.pdf) | ICCV 2021          | [CODE](https://github.com/google/nerfies)                    |
+| [A-NeRF: Articulated Neural Radiance Fields for Learning Human Shape, Appearance, and Pose](https://proceedings.neurips.cc/paper/2021/file/65fc9fb4897a89789352e211ca2d398f-Paper.pdf) | NIPS 2021          | [CODE](https://github.com/LemonATsu/A-NeRF)                  |
+| [H-NeRF: Neural Radiance Fields for Rendering and Temporal Reconstruction of Humans in Motion](https://proceedings.neurips.cc/paper/2021/file/7d62a275027741d98073d42b8f735c68-Paper.pdf) | NIPS 2021          |                                                              |
+| [Neural Human Performer: Learning Generalizable Radiance Fields for Human Performance Rendering](https://proceedings.neurips.cc/paper/2021/file/cf866614b6b18cda13fe699a3a65661b-Paper.pdf) | NIPS 2021          | [CODE](https://github.com/YoungJoongUNC/Neural_Human_Performer) |
+| [Neural actor: neural free-view synthesis of human actors with pose control](https://dl.acm.org/doi/pdf/10.1145/3478513.3480528) | TOG 2021           |                                                              |
+| [HumanNeRF: Free-viewpoint Rendering of Moving People from Monocular Video ](https://arxiv.org/abs/2201.04127) | CVPR 2022          | [CODE](https://github.com/chungyiweng/humannerf)             |
+| [HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhao_HumanNeRF_Efficiently_Generated_Human_Radiance_Field_From_Sparse_Inputs_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/zhaofuq/HumanNeRF)                 |
+| [Surface-Aligned Neural Radiance Fields for Controllable 3D Human Synthesis](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_Surface-Aligned_Neural_Radiance_Fields_for_Controllable_3D_Human_Synthesis_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/pfnet-research/surface-aligned-nerf) |
+| [Structured Local Radiance Fields for Human Avatar Modeling](https://openaccess.thecvf.com/content/CVPR2022/papers/Zheng_Structured_Local_Radiance_Fields_for_Human_Avatar_Modeling_CVPR_2022_paper.pdf) | CVPR 2022          | [PROJECT](https://liuyebin.com/slrf/slrf.html)(没有代码，仅有数据) |
+| [**KeypointNeRF:** Generalizing Image-based Volumetric Avatars using Relative Spatial Encoding of Keypoints](https://arxiv.org/pdf/2205.04992.pdf) | ECCV 2022          | [CODE](https://github.com/facebookresearch/KeypointNeRF)     |
+| [TAVA: Template-free Animatable Volumetric Actors](https://arxiv.org/pdf/2206.08929.pdf) | ECCV 2022          | [CODE](https://github.com/facebookresearch/tava)             |
+| [ARAH: Animatable Volume Rendering of Articulated Human SDFs](https://www.cvlibs.net/publications/Wang2022ECCV.pdf) | ECCV 2022          | [CODE](https://github.com/taconite/arah-release)             |
+| [NDF: Neural Deformable Fields for Dynamic Human Modelling](https://arxiv.org/pdf/2207.09193.pdf) | ECCV 2022          | [CODE](https://github.com/HKBU-VSComputing/2022_ECCV_NDF)    |
+| [Relighting4D: Neural Relightable Human from Videos](https://arxiv.org/pdf/2207.07104.pdf) | ECCV 2022          | [CODE](https://github.com/FrozenBurning/Relighting4D)        |
+| [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | ECCV 2022          | [CODE](https://github.com/apple/ml-neuman)                   |
+| [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022           | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
+| [Efficient Neural Radiance Fields with Learned Depth-Guided Sampling](https://arxiv.org/pdf/2112.01517.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/zju3dv/ENeRF)                      |
+| [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |                    |                                                              |
+| [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf) |                    |                                                              |
+| [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf) |                    |                                                              |
+| [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf) |                    |                                                              |
+| [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) |                    |                                                              |
 
 #### face-nerf（face reconstruction, face generation, face-style transfer..）：
 
@@ -209,6 +210,8 @@ human-cloth重建（没有用PIFU）
 | [FLNeRF: 3D Facial Landmarks Estimation in Neural Radiance Fields](https://arxiv.org/pdf/2211.11202.pdf) |                    |                                                        |
 | [Generative Neural Texture Rasterization for 3D-Aware Head Avatars](https://arxiv.org/pdf/2211.11208.pdf) |                    | [CODE](https://github.com/MrTornado24/Next3D)          |
 | [Real-time Neural Radiance Talking Portrait Synthesis via Audio-spatial Decomposition](https://arxiv.org/abs/2211.12368) |                    |                                                        |
+| [3D-Aware Encoding for Style-based Neural Radiance Fields](https://arxiv.org/pdf/2211.06583.pdf) |                    |                                                        |
+| [CGOF++: Controllable 3D Face Synthesis with Conditional Generative Occupancy Fields](https://arxiv.org/abs/2211.13251) |                    |                                                        |
 
 #### generation-nerf：
 
@@ -224,6 +227,9 @@ human-cloth重建（没有用PIFU）
 | [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf) | ECCV 2022 | [CODE](https://github.com/donydchen/sem2nerf)       |
 | [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |           |                                                     |
 | [SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields](https://arxiv.org/abs/2211.12254) |           |                                                     |
+| [3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2211.14108) |           |                                                     |
+| [TPA-Net: Generate A Dataset for Text to Physics-based Animation](https://arxiv.org/abs/2211.13887) |           |                                                     |
+| [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |           |                                                     |
 
 #### optimize nerf:
 
@@ -254,6 +260,7 @@ human-cloth重建（没有用PIFU）
 | [Generative Neural Articulated Radiance Fields](https://arxiv.org/pdf/2206.14314.pdf) | NeurIPS 2022 |  |
 | [Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories](https://arxiv.org/pdf/2211.03889.pdf) |  | |
 | [Deblurred Neural Radiance Field with Physical Scene Priors](https://arxiv.org/abs/2211.12046) | | |
+| [NeRF-RPN: A general framework for object detection in NeRFs]([https://arxiv.org/abs/2211.11646](https://t.co/S5OqDblRwO))用NeRF做3D检测 | | |
 
 ### ReID
 
