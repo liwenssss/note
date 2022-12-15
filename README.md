@@ -40,6 +40,7 @@
 | [ReFu: Refine and Fuse the Unobserved View for Detail-Preserving Single-Image 3D Human Reconstruction](https://dl.acm.org/doi/pdf/10.1145/3503161.3547971) | MM 2022 | |
 | [xCloth: Extracting Template-free Textured 3D Clothes from a Monocular Image](https://arxiv.org/pdf/2208.12934v1.pdf) | MM 2022 | |
 | [Motion Guided Deep Dynamic 3D Garments](https://arxiv.org/pdf/2209.11449.pdf) | SIGGRAPH 2022 | [CODE](https://github.com/MengZephyr/Motion-Guided-Deep-Dynamic-3D-Garment) |
+| [H3WB: Human3.6M 3D WholeBody Dataset and Benchmark](https://arxiv.org/pdf/2211.15692.pdf) |  |  |
 
 在ICON中，与PIFU,PIFUHD以及PaMIR三种方法进行了对比。
 
@@ -95,6 +96,7 @@ human-cloth重建（没有用PIFU）
 | [Structure-Aware Flow Generation for Human Body Reshaping](https://openaccess.thecvf.com/content/CVPR2022/papers/Ren_Structure-Aware_Flow_Generation_for_Human_Body_Reshaping_CVPR_2022_paper.pdf)(预测图像中人物的2D姿势，利用2D姿势更改图像中人物的体型，并生成新的图像，属于2D姿势预测的应用) | CVPR 2022  | [DATA](https://github.com/JianqiangRen/FlowBasedBodyReshaping) |
 | [POSE-NDF: MODELING HUMAN POSE MANIFOLDS WITH NEURAL DISTANCE FIELDS](https://virtualhumans.mpi-inf.mpg.de/papers/tiwari22posendf/posendf.pdf) BSET PAPER IN ECCV 2022 | ECCV 2022  | [CODE](https://github.com/garvita-tiwari/PoseNDF)            |
 | [AlphaPose: Whole-Body Regional Multi-Person Pose Estimation and Tracking in Real-Time](https://arxiv.org/pdf/2211.03375.pdf) | TPAMI 2022 | [CODE](https://github.com/Fang-Haoshu/Halpe-FullBody)        |
+| [DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion models](https://arxiv.org/abs/2211.16487) |            |                                                              |
 
 ### Human-Object
 
@@ -193,6 +195,7 @@ human-cloth重建（没有用PIFU）
 | [Capturing and Animation of Body and Clothing from Monocular Video](https://arxiv.org/pdf/2210.01868.pdf) |                    |                                                              |
 | [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf) |                    |                                                              |
 | [EVA3D: Compositional 3D Human Generation from 2D Image Collections](https://arxiv.org/pdf/2210.04888.pdf) |                    |                                                              |
+| [Structured 3D Features for Reconstructing Relightable and Animatable Avatars](https://arxiv.org/pdf/2212.06820.pdf) |                    |                                                              |
 
 #### face-nerf（face reconstruction, face generation, face-style transfer..）：
 
@@ -212,6 +215,7 @@ human-cloth重建（没有用PIFU）
 | [Real-time Neural Radiance Talking Portrait Synthesis via Audio-spatial Decomposition](https://arxiv.org/abs/2211.12368) |                    |                                                        |
 | [3D-Aware Encoding for Style-based Neural Radiance Fields](https://arxiv.org/pdf/2211.06583.pdf) |                    |                                                        |
 | [CGOF++: Controllable 3D Face Synthesis with Conditional Generative Occupancy Fields](https://arxiv.org/abs/2211.13251) |                    |                                                        |
+| [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |                    |                                                        |
 
 #### generation-nerf：
 
@@ -229,7 +233,6 @@ human-cloth重建（没有用PIFU）
 | [SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields](https://arxiv.org/abs/2211.12254) |           |                                                     |
 | [3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2211.14108) |           |                                                     |
 | [TPA-Net: Generate A Dataset for Text to Physics-based Animation](https://arxiv.org/abs/2211.13887) |           |                                                     |
-| [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |           |                                                     |
 
 #### optimize nerf:
 
@@ -239,6 +242,8 @@ human-cloth重建（没有用PIFU）
 | [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Aug-NeRF_Training_Stronger_Neural_Radiance_Fields_With_Triple-Level_Physically-Grounded_Augmentations_CVPR_2022_paper.pdf) | CVPR 2022     | [CODE](https://github.com/VITA-Group/Aug-NeRF) |
 | [NerfAcc: A General NeRF Accleration Toolbox](https://arxiv.org/pdf/2210.04847.pdf) |               | [CODE](https://github.com/KAIR-BAIR/nerfacc)   |
 | [Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields](https://arxiv.org/abs/2211.12285) |               |                                                |
+| [One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation](https://arxiv.org/abs/2211.15977)用蒸馏的方式从instant-ngp中提取MLP式的结构，便于用于下游任务 |               |                                                |
+| [Compressing Volumetric Radiance Fields to 1 MB](https://arxiv.org/abs/2211.16386) |               |                                                |
 
 #### others:
 
@@ -261,6 +266,7 @@ human-cloth重建（没有用PIFU）
 | [Common Pets in 3D: Dynamic New-View Synthesis of Real-Life Deformable Categories](https://arxiv.org/pdf/2211.03889.pdf) |  | |
 | [Deblurred Neural Radiance Field with Physical Scene Priors](https://arxiv.org/abs/2211.12046) | | |
 | [NeRF-RPN: A general framework for object detection in NeRFs]([https://arxiv.org/abs/2211.11646](https://t.co/S5OqDblRwO))用NeRF做3D检测 | | |
+| [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with 360° Views](https://arxiv.org/abs/2211.16431) | | |
 
 ### ReID
 
