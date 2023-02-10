@@ -211,7 +211,6 @@ human-cloth重建（没有用PIFU）
 | [FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/MrTornado24/FENeRF)          |
 | [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf) | ECCV 2022          | [CODE](https://github.com/sstzal/DFRF)                 |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
-| [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/pdf/2205.15285.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/hustvl/TiNeuVox)             |
 | [gCoRF: Generative Compositional Radiance Fields](https://vcai.mpi-inf.mpg.de/projects/gCoRF/data/paper.pdf) | 3DV 2022           |                                                        |
 | [NeRFFaceEditing: Disentangled Face Editing in Neural Radiance Fields](https://arxiv.org/pdf/2211.07968.pdf) |                    |                                                        |
 | [FLNeRF: 3D Facial Landmarks Estimation in Neural Radiance Fields](https://arxiv.org/pdf/2211.11202.pdf) |                    |                                                        |
@@ -220,6 +219,7 @@ human-cloth重建（没有用PIFU）
 | [3D-Aware Encoding for Style-based Neural Radiance Fields](https://arxiv.org/pdf/2211.06583.pdf) |                    |                                                        |
 | [CGOF++: Controllable 3D Face Synthesis with Conditional Generative Occupancy Fields](https://arxiv.org/abs/2211.13251) |                    |                                                        |
 | [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |                    |                                                        |
+| [ManVatar : Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels](https://arxiv.org/pdf/2211.13206.pdf) |                    |                                                        |
 
 #### generation-nerf：
 
@@ -240,14 +240,22 @@ human-cloth重建（没有用PIFU）
 
 #### optimize nerf:
 
-| Methods                                                      | Source        | Code                                           |
-| ------------------------------------------------------------ | ------------- | ---------------------------------------------- |
-| [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://arxiv.org/pdf/2201.05989.pdf) | SIGGRAPH 2022 | [CODE](https://github.com/NVlabs/instant-ngp)  |
-| [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Aug-NeRF_Training_Stronger_Neural_Radiance_Fields_With_Triple-Level_Physically-Grounded_Augmentations_CVPR_2022_paper.pdf) | CVPR 2022     | [CODE](https://github.com/VITA-Group/Aug-NeRF) |
-| [NerfAcc: A General NeRF Accleration Toolbox](https://arxiv.org/pdf/2210.04847.pdf) |               | [CODE](https://github.com/KAIR-BAIR/nerfacc)   |
-| [Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields](https://arxiv.org/abs/2211.12285) |               |                                                |
-| [One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation](https://arxiv.org/abs/2211.15977)用蒸馏的方式从instant-ngp中提取MLP式的结构，便于用于下游任务 |               |                                                |
-| [Compressing Volumetric Radiance Fields to 1 MB](https://arxiv.org/abs/2211.16386) |               |                                                |
+| Methods                                                      | Source             | Code                                                   |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------------------------ |
+| [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://arxiv.org/pdf/2201.05989.pdf) | SIGGRAPH 2022      | [CODE](https://github.com/NVlabs/instant-ngp)          |
+| [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Aug-NeRF_Training_Stronger_Neural_Radiance_Fields_With_Triple-Level_Physically-Grounded_Augmentations_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/VITA-Group/Aug-NeRF)         |
+| [NerfAcc: A General NeRF Accleration Toolbox](https://arxiv.org/pdf/2210.04847.pdf) |                    | [CODE](https://github.com/KAIR-BAIR/nerfacc)           |
+| [Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields](https://arxiv.org/abs/2211.12285) |                    |                                                        |
+| [One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation](https://arxiv.org/abs/2211.15977)用蒸馏的方式从instant-ngp中提取MLP式的结构，便于用于下游任务 |                    |                                                        |
+| [Compressing Volumetric Radiance Fields to 1 MB](https://arxiv.org/abs/2211.16386) |                    |                                                        |
+| [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/pdf/2205.15285.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/hustvl/TiNeuVox)             |
+| [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
+| [Neural Deformable Voxel Grid for Fast Optimization of Dynamic View Synthesis](https://openaccess.thecvf.com/content/ACCV2022/papers/Guo_Neural_Deformable_Voxel_Grid_for_Fast_Optimization_of_Dynamic_View_ACCV_2022_paper.pdf) | ACCV 2022          |                                                        |
+| [ManVatar : Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels](https://arxiv.org/pdf/2211.13206.pdf) |                    |                                                        |
+| [SelfNeRF: Fast Training NeRF for Human from Monocular Self-rotating Video](https://arxiv.org/pdf/2210.01651.pdf) |                    |                                                        |
+| [Fast-SNARF: A Fast Deformer for Articulated Neural Fields](https://arxiv.org/pdf/2211.15601.pdf) |                    |                                                        |
+| [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance arXiv:2301.10241v1](https://arxiv.org/pdf/2301.10241.pdf) |                    |                                                        |
+| [HexPlane: A Fast Representation for Dynamic Scenes](https://arxiv.org/pdf/2301.09632.pdf) |                    |                                                        |
 
 #### others:
 
