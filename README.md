@@ -221,6 +221,12 @@ human-cloth重建（没有用PIFU）
 | [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |                    |                                                        |
 | [ManVatar : Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels](https://arxiv.org/pdf/2211.13206.pdf) |                    |                                                        |
 
+#### hand-nerf:
+
+| Methods                                                      | Source | Code |
+| ------------------------------------------------------------ | ------ | ---- |
+| [LiveHand: Real-time and Photorealistic Neural Hand Rendering](https://arxiv.org/pdf/2302.07672.pdf) |        |      |
+
 #### generation-nerf：
 
 | Methods                                                      | Source    | Code                                                |
@@ -279,6 +285,12 @@ human-cloth重建（没有用PIFU）
 | [Deblurred Neural Radiance Field with Physical Scene Priors](https://arxiv.org/abs/2211.12046) | | |
 | [NeRF-RPN: A general framework for object detection in NeRFs]([https://arxiv.org/abs/2211.11646](https://t.co/S5OqDblRwO))用NeRF做3D检测 | | |
 | [NeuralLift-360: Lifting An In-the-wild 2D Photo to A 3D Object with 360° Views](https://arxiv.org/abs/2211.16431) | | |
+
+#### nerf in other areas:
+
+| Methods                                                      | Source | Code |
+| ------------------------------------------------------------ | ------ | ---- |
+| [AV-NeRF: Learning Neural Fields for Real-World Audio-Visual Scene Synthesis](https://arxiv.org/pdf/2302.02088.pdf) |        |      |
 
 ### ReID
 
