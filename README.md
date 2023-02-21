@@ -207,16 +207,13 @@ human-cloth重建（没有用PIFU）
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------ |
 | [NerFACE: Dynamic Neural Radiance Fields for Monocular 4D Facial Avatar Reconstruction](https://openaccess.thecvf.com/content/CVPR2021/papers/Gafni_Dynamic_Neural_Radiance_Fields_for_Monocular_4D_Facial_Avatar_Reconstruction_CVPR_2021_paper.pdf) | CVPR 2021          | [CODE](https://github.com/gafniguy/4D-Facial-Avatars)  |
 | [AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_AD-NeRF_Audio_Driven_Neural_Radiance_Fields_for_Talking_Head_Synthesis_ICCV_2021_paper.pdf) | ICCV 2021          | [CODE](https://github.com/YudongGuo/AD-NeRF)           |
-| [STYLENERF: A STYLE-BASED 3D-AWARE GENERATOR FOR HIGH-RESOLUTION IMAGE SYNTHESIS](https://arxiv.org/pdf/2110.08985.pdf) | ICLR 2022          | [CODE](https://github.com/facebookresearch/StyleNeRF)  |
 | [FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/MrTornado24/FENeRF)          |
 | [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf) | ECCV 2022          | [CODE](https://github.com/sstzal/DFRF)                 |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
-| [gCoRF: Generative Compositional Radiance Fields](https://vcai.mpi-inf.mpg.de/projects/gCoRF/data/paper.pdf) | 3DV 2022           |                                                        |
 | [NeRFFaceEditing: Disentangled Face Editing in Neural Radiance Fields](https://arxiv.org/pdf/2211.07968.pdf) |                    |                                                        |
 | [FLNeRF: 3D Facial Landmarks Estimation in Neural Radiance Fields](https://arxiv.org/pdf/2211.11202.pdf) |                    |                                                        |
 | [Generative Neural Texture Rasterization for 3D-Aware Head Avatars](https://arxiv.org/pdf/2211.11208.pdf) |                    | [CODE](https://github.com/MrTornado24/Next3D)          |
 | [Real-time Neural Radiance Talking Portrait Synthesis via Audio-spatial Decomposition](https://arxiv.org/abs/2211.12368) |                    |                                                        |
-| [3D-Aware Encoding for Style-based Neural Radiance Fields](https://arxiv.org/pdf/2211.06583.pdf) |                    |                                                        |
 | [CGOF++: Controllable 3D Face Synthesis with Conditional Generative Occupancy Fields](https://arxiv.org/abs/2211.13251) |                    |                                                        |
 | [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |                    |                                                        |
 | [ManVatar : Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels](https://arxiv.org/pdf/2211.13206.pdf) |                    |                                                        |
@@ -229,20 +226,24 @@ human-cloth重建（没有用PIFU）
 
 #### generation-nerf：
 
-| Methods                                                      | Source    | Code                                                |
-| ------------------------------------------------------------ | --------- | --------------------------------------------------- |
-| [GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields](https://openaccess.thecvf.com/content/CVPR2021/papers/Niemeyer_GIRAFFE_Representing_Scenes_As_Compositional_Generative_Neural_Feature_Fields_CVPR_2021_paper.pdf) | CVPR 2021 | [CODE](https://github.com/autonomousvision/giraffe) |
-| [Pix2NeRF: Unsupervised Conditional π-GAN for Single Image to Neural Radiance Fields Translation](https://openaccess.thecvf.com/content/CVPR2022/papers/Cai_Pix2NeRF_Unsupervised_Conditional_p-GAN_for_Single_Image_to_Neural_Radiance_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/primecai/Pix2NeRF)        |
-| [NeRF-Editing: Geometry Editing of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_NeRF-Editing_Geometry_Editing_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/IGLICT/NeRF-Editing)      |
-| [3D-aware Image Synthesis via Learning Structural and Textural Representations](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_3D-Aware_Image_Synthesis_via_Learning_Structural_and_Textural_Representations_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/genforce/volumegan)       |
-| [CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/cassiePython/CLIPNeRF)    |
-| [Injecting 3D Perception of Controllable NeRF-GAN into StyleGAN for Editable Portrait Image Synthesis](https://arxiv.org/pdf/2207.10257.pdf) | ECCV 2022 | [CODE](https://github.com/jgkwak95/SURF-GAN)        |
-| [Generative Multiplane Images: Making a 2D GAN 3D-Aware](https://arxiv.org/pdf/2207.10642.pdf) | ECCV 2022 | [CODE](https://github.com/apple/ml-gmpi)            |
-| [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf) | ECCV 2022 | [CODE](https://github.com/donydchen/sem2nerf)       |
-| [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |           |                                                     |
-| [SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields](https://arxiv.org/abs/2211.12254) |           |                                                     |
-| [3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2211.14108) |           |                                                     |
-| [TPA-Net: Generate A Dataset for Text to Physics-based Animation](https://arxiv.org/abs/2211.13887) |           |                                                     |
+| Methods                                                      | Source    | Code                                                  |
+| ------------------------------------------------------------ | --------- | ----------------------------------------------------- |
+| [GIRAFFE: Representing Scenes as Compositional Generative Neural Feature Fields](https://openaccess.thecvf.com/content/CVPR2021/papers/Niemeyer_GIRAFFE_Representing_Scenes_As_Compositional_Generative_Neural_Feature_Fields_CVPR_2021_paper.pdf) | CVPR 2021 | [CODE](https://github.com/autonomousvision/giraffe)   |
+| [STYLENERF: A STYLE-BASED 3D-AWARE GENERATOR FOR HIGH-RESOLUTION IMAGE SYNTHESIS](https://arxiv.org/pdf/2110.08985.pdf) | ICLR 2022 | [CODE](https://github.com/facebookresearch/StyleNeRF) |
+| [Pix2NeRF: Unsupervised Conditional π-GAN for Single Image to Neural Radiance Fields Translation](https://openaccess.thecvf.com/content/CVPR2022/papers/Cai_Pix2NeRF_Unsupervised_Conditional_p-GAN_for_Single_Image_to_Neural_Radiance_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/primecai/Pix2NeRF)          |
+| [NeRF-Editing: Geometry Editing of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Yuan_NeRF-Editing_Geometry_Editing_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/IGLICT/NeRF-Editing)        |
+| [3D-aware Image Synthesis via Learning Structural and Textural Representations](https://openaccess.thecvf.com/content/CVPR2022/papers/Xu_3D-Aware_Image_Synthesis_via_Learning_Structural_and_Textural_Representations_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/genforce/volumegan)         |
+| [CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_CLIP-NeRF_Text-and-Image_Driven_Manipulation_of_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022 | [CODE](https://github.com/cassiePython/CLIPNeRF)      |
+| [Injecting 3D Perception of Controllable NeRF-GAN into StyleGAN for Editable Portrait Image Synthesis](https://arxiv.org/pdf/2207.10257.pdf) | ECCV 2022 | [CODE](https://github.com/jgkwak95/SURF-GAN)          |
+| [Generative Multiplane Images: Making a 2D GAN 3D-Aware](https://arxiv.org/pdf/2207.10642.pdf) | ECCV 2022 | [CODE](https://github.com/apple/ml-gmpi)              |
+| [**Sem2NeRF**: Converting Single-View Semantic Masks to Neural Radiance Fields](https://arxiv.org/pdf/2203.10821.pdf) | ECCV 2022 | [CODE](https://github.com/donydchen/sem2nerf)         |
+| [gCoRF: Generative Compositional Radiance Fields](https://vcai.mpi-inf.mpg.de/projects/gCoRF/data/paper.pdf) | 3DV 2022  |                                                       |
+| [DREAMFUSION: TEXT-TO-3D USING 2D DIFFUSION](https://openreview.net/pdf?id=FjNys5c7VyY) |           |                                                       |
+| [SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields](https://arxiv.org/abs/2211.12254) |           |                                                       |
+| [3DDesigner: Towards Photorealistic 3D Object Generation and Editing with Text-guided Diffusion Models](https://arxiv.org/abs/2211.14108) |           |                                                       |
+| [TPA-Net: Generate A Dataset for Text to Physics-based Animation](https://arxiv.org/abs/2211.13887) |           |                                                       |
+| [3D-Aware Encoding for Style-based Neural Radiance Fields](https://arxiv.org/pdf/2211.06583.pdf) |           |                                                       |
+| [VQ3D: Learning a 3D-Aware Generative Model on ImageNet](https://arxiv.org/pdf/2302.06833.pdf) |           |                                                       |
 
 #### optimize nerf:
 
@@ -250,6 +251,8 @@ human-cloth重建（没有用PIFU）
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------ |
 | [Instant Neural Graphics Primitives with a Multiresolution Hash Encoding](https://arxiv.org/pdf/2201.05989.pdf) | SIGGRAPH 2022      | [CODE](https://github.com/NVlabs/instant-ngp)          |
 | [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Aug-NeRF_Training_Stronger_Neural_Radiance_Fields_With_Triple-Level_Physically-Grounded_Augmentations_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/VITA-Group/Aug-NeRF)         |
+| [Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/sunset1995/DirectVoxGO)      |
+| [Plenoxels: Radiance Fields without Neural Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/sxyu/svox2)                  |
 | [NerfAcc: A General NeRF Accleration Toolbox](https://arxiv.org/pdf/2210.04847.pdf) |                    | [CODE](https://github.com/KAIR-BAIR/nerfacc)           |
 | [Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields](https://arxiv.org/abs/2211.12285) |                    |                                                        |
 | [One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation](https://arxiv.org/abs/2211.15977)用蒸馏的方式从instant-ngp中提取MLP式的结构，便于用于下游任务 |                    |                                                        |
@@ -262,6 +265,8 @@ human-cloth重建（没有用PIFU）
 | [Fast-SNARF: A Fast Deformer for Articulated Neural Fields](https://arxiv.org/pdf/2211.15601.pdf) |                    |                                                        |
 | [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance arXiv:2301.10241v1](https://arxiv.org/pdf/2301.10241.pdf) |                    |                                                        |
 | [HexPlane: A Fast Representation for Dynamic Scenes](https://arxiv.org/pdf/2301.09632.pdf) |                    |                                                        |
+| [MixNeRF: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs](https://arxiv.org/pdf/2302.08788.pdf) |                    |                                                        |
+| [Factor Fields: A Unified Framework for Neural Fields and Beyond](https://arxiv.org/pdf/2302.01226.pdf) |                    |                                                        |
 
 #### others:
 
