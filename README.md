@@ -210,6 +210,7 @@ human-cloth重建（没有用PIFU）
 | [FENeRF: Face Editing in Neural Radiance Fields](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_FENeRF_Face_Editing_in_Neural_Radiance_Fields_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/MrTornado24/FENeRF)          |
 | [Learning Dynamic Facial Radiance Fields for Few-Shot Talking Head Synthesis](https://arxiv.org/pdf/2207.11770.pdf)(说话人+nerf) | ECCV 2022          | [CODE](https://github.com/sstzal/DFRF)                 |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
+| [GENEFACE: GENERALIZED AND HIGH-FIDELITY AUDIO-DRIVEN 3D TALKING FACE SYNTHESIS](https://arxiv.org/pdf/2301.13430.pdf) | ICLR 2023          |                                                        |
 | [NeRFFaceEditing: Disentangled Face Editing in Neural Radiance Fields](https://arxiv.org/pdf/2211.07968.pdf) |                    |                                                        |
 | [FLNeRF: 3D Facial Landmarks Estimation in Neural Radiance Fields](https://arxiv.org/pdf/2211.11202.pdf) |                    |                                                        |
 | [Generative Neural Texture Rasterization for 3D-Aware Head Avatars](https://arxiv.org/pdf/2211.11208.pdf) |                    | [CODE](https://github.com/MrTornado24/Next3D)          |
@@ -217,6 +218,7 @@ human-cloth重建（没有用PIFU）
 | [CGOF++: Controllable 3D Face Synthesis with Conditional Generative Occupancy Fields](https://arxiv.org/abs/2211.13251) |                    |                                                        |
 | [Dynamic Neural Portraits](https://arxiv.org/pdf/2211.13994.pdf) |                    |                                                        |
 | [ManVatar : Fast 3D Head Avatar Reconstruction Using Motion-Aware Neural Voxels](https://arxiv.org/pdf/2211.13206.pdf) |                    |                                                        |
+| [LC-NeRF: Local Controllable Face Generation in Neural Randiance Field](https://arxiv.org/pdf/2302.09486.pdf) |                    |                                                        |
 
 #### hand-nerf:
 
@@ -253,10 +255,12 @@ human-cloth重建（没有用PIFU）
 | [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Aug-NeRF_Training_Stronger_Neural_Radiance_Fields_With_Triple-Level_Physically-Grounded_Augmentations_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/VITA-Group/Aug-NeRF)         |
 | [Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/sunset1995/DirectVoxGO)      |
 | [Plenoxels: Radiance Fields without Neural Networks](https://openaccess.thecvf.com/content/CVPR2022/papers/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.pdf) | CVPR 2022          | [CODE](https://github.com/sxyu/svox2)                  |
+| [Direct Voxel Grid Optimization: Super-fast Convergence for Radiance Fields Reconstruction](https://openaccess.thecvf.com/content/CVPR2022/papers/Sun_Direct_Voxel_Grid_Optimization_Super-Fast_Convergence_for_Radiance_Fields_Reconstruction_CVPR_2022_paper.pdf) | CVPR 2022          |                                                        |
 | [NerfAcc: A General NeRF Accleration Toolbox](https://arxiv.org/pdf/2210.04847.pdf) |                    | [CODE](https://github.com/KAIR-BAIR/nerfacc)           |
 | [Exact-NeRF: An Exploration of a Precise Volumetric Parameterization for Neural Radiance Fields](https://arxiv.org/abs/2211.12285) |                    |                                                        |
 | [One is All: Bridging the Gap Between Neural Radiance Fields Architectures with Progressive Volume Distillation](https://arxiv.org/abs/2211.15977)用蒸馏的方式从instant-ngp中提取MLP式的结构，便于用于下游任务 |                    |                                                        |
 | [Compressing Volumetric Radiance Fields to 1 MB](https://arxiv.org/abs/2211.16386) |                    |                                                        |
+| [TensoRF: Tensorial Radiance Fields](https://link.springer.com/chapter/10.1007/978-3-031-19824-3_20) | ECCV 2022          |                                                        |
 | [Fast Dynamic Radiance Fields with Time-Aware Neural Voxels](https://arxiv.org/pdf/2205.15285.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/hustvl/TiNeuVox)             |
 | [Reconstructing Personalized Semantic Facial NeRF Models From Monocular Video](https://arxiv.org/pdf/2210.06108.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/USTC3DV/NeRFBlendShape-code) |
 | [Neural Deformable Voxel Grid for Fast Optimization of Dynamic View Synthesis](https://openaccess.thecvf.com/content/ACCV2022/papers/Guo_Neural_Deformable_Voxel_Grid_for_Fast_Optimization_of_Dynamic_View_ACCV_2022_paper.pdf) | ACCV 2022          |                                                        |
@@ -265,6 +269,7 @@ human-cloth重建（没有用PIFU）
 | [Fast-SNARF: A Fast Deformer for Articulated Neural Fields](https://arxiv.org/pdf/2211.15601.pdf) |                    |                                                        |
 | [K-Planes: Explicit Radiance Fields in Space, Time, and Appearance arXiv:2301.10241v1](https://arxiv.org/pdf/2301.10241.pdf) |                    |                                                        |
 | [HexPlane: A Fast Representation for Dynamic Scenes](https://arxiv.org/pdf/2301.09632.pdf) |                    |                                                        |
+| [D-TENSORF: TENSORIAL RADIANCE FIELDS FOR DYNAMIC SCENES](https://arxiv.org/pdf/2212.02375.pdf) |                    |                                                        |
 | [MixNeRF: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs](https://arxiv.org/pdf/2302.08788.pdf) |                    |                                                        |
 | [Factor Fields: A Unified Framework for Neural Fields and Beyond](https://arxiv.org/pdf/2302.01226.pdf) |                    |                                                        |
 
