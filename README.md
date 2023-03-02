@@ -41,6 +41,7 @@
 | [xCloth: Extracting Template-free Textured 3D Clothes from a Monocular Image](https://arxiv.org/pdf/2208.12934v1.pdf) | MM 2022 | |
 | [Motion Guided Deep Dynamic 3D Garments](https://arxiv.org/pdf/2209.11449.pdf) | SIGGRAPH 2022 | [CODE](https://github.com/MengZephyr/Motion-Guided-Deep-Dynamic-3D-Garment) |
 | [H3WB: Human3.6M 3D WholeBody Dataset and Benchmark](https://arxiv.org/pdf/2211.15692.pdf) |  |  |
+| [ECON: Explicit Clothed humans Obtained from Normals](https://arxiv.org/pdf/2212.07422.pdf) | CVPR 2023 | [PROJECT](https://xiuyuliang.cn/econ/) |
 
 在ICON中，与PIFU,PIFUHD以及PaMIR三种方法进行了对比。
 
@@ -191,6 +192,7 @@ human-cloth重建（没有用PIFU）
 | [NeuMan: Neural Human Radiance Field from a Single Video](https://arxiv.org/pdf/2203.12575.pdf) | ECCV 2022          | [CODE](https://github.com/apple/ml-neuman)                   |
 | [Dual-Space NeRF: Learning Animatable Avatars and Scene Lighting in Separate Spaces](https://arxiv.org/pdf/2208.14851.pdf) | 3DV 2022           | [CODE](https://github.com/zyhbili/Dual-Space-NeRF)           |
 | [Efficient Neural Radiance Fields with Learned Depth-Guided Sampling](https://arxiv.org/pdf/2112.01517.pdf) | SIGGRAPH Asia 2022 | [CODE](https://github.com/zju3dv/ENeRF)                      |
+| [SCARF: Capturing and Animation of Body and Clothing from Monocular Video](https://yfeng95.github.io/scarf/) 三维人体/衣服隐式重建 | SIGGRAPH Asia 2022 | [PROJECT](https://yfeng95.github.io/scarf/)                  |
 | [TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies](https://openreview.net/pdf?id=lgj33-O1Ely) | NeurIPS 2022       | [CODE](https://github.com/zju3dv/TotalSelfScan)              |
 | [Animatable Implicit Neural Representations for Creating Realistic Avatars from Videos](https://arxiv.org/pdf/2203.08133.pdf) |                    |                                                              |
 | [MPS-NeRF: Generalizable 3D Human Rendering from Multiview Images](https://arxiv.org/pdf/2203.16875.pdf) |                    |                                                              |
@@ -200,6 +202,8 @@ human-cloth重建（没有用PIFU）
 | [Structured 3D Features for Reconstructing Relightable and Animatable Avatars](https://arxiv.org/pdf/2212.06820.pdf) |                    |                                                              |
 | [RANA: Relightable Articulated Neural Avatars](https://arxiv.org/pdf/2212.03237.pdf) |                    |                                                              |
 | [InstantAvatar: Learning Avatars from Monocular Video in 60 Seconds](https://arxiv.org/pdf/2212.10550.pdf) |                    |                                                              |
+| [Learning Neural Volumetric Representations of Dynamic Humans in Minutes](https://arxiv.org/pdf/2302.12237.pdf) | CVPR 2023          |                                                              |
+| [IntrinsicNGP: Intrinsic Coordinate based Hash Encoding for Human NeRF](https://arxiv.org/pdf/2302.14683.pdf) |                    |                                                              |
 
 #### face-nerf（face reconstruction, face generation, face-style transfer..）：
 
@@ -298,9 +302,10 @@ human-cloth重建（没有用PIFU）
 
 #### nerf in other areas:
 
-| Methods                                                      | Source | Code |
-| ------------------------------------------------------------ | ------ | ---- |
-| [AV-NeRF: Learning Neural Fields for Real-World Audio-Visual Scene Synthesis](https://arxiv.org/pdf/2302.02088.pdf) |        |      |
+| Methods                                                      | Source    | Code                                     |
+| ------------------------------------------------------------ | --------- | ---------------------------------------- |
+| [AV-NeRF: Learning Neural Fields for Real-World Audio-Visual Scene Synthesis](https://arxiv.org/pdf/2302.02088.pdf) |           |                                          |
+| [SPIn-NeRF: Multiview Segmentation and Perceptual Inpainting with Neural Radiance Fields](https://arxiv.org/pdf/2211.12254.pdf) removal of unwanted objects from a 3D scene | CVPR 2023 | [PROJECT](https://spinnerf3d.github.io/) |
 
 ### ReID
 
