@@ -203,6 +203,7 @@ human-cloth重建（没有用PIFU）
 | [RANA: Relightable Articulated Neural Avatars](https://arxiv.org/pdf/2212.03237.pdf) |                    |                                                              |
 | [InstantAvatar: Learning Avatars from Monocular Video in 60 Seconds](https://arxiv.org/pdf/2212.10550.pdf) |                    |                                                              |
 | [Learning Neural Volumetric Representations of Dynamic Humans in Minutes](https://arxiv.org/pdf/2302.12237.pdf) | CVPR 2023          |                                                              |
+| [**PersonNeRF**: Personalized Reconstruction from Photo Collections](https://arxiv.org/pdf/2302.08504.pdf) | CVPR 2023          | [PROJECT](https://grail.cs.washington.edu/projects/personnerf/) |
 | [IntrinsicNGP: Intrinsic Coordinate based Hash Encoding for Human NeRF](https://arxiv.org/pdf/2302.14683.pdf) |                    |                                                              |
 
 #### face-nerf（face reconstruction, face generation, face-style transfer..）：
